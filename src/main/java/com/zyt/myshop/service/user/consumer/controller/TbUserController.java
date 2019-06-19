@@ -6,7 +6,6 @@ import com.zyt.myshop.commons.domain.TbUser;
 import com.zyt.myshop.service.user.api.TbUserService;
 import com.zyt.myshop.statics.backend.dto.DataTableDTO;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;

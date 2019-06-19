@@ -20,7 +20,7 @@ services:
 # Dubbo Config properties
 dubbo:
   scan:
-    basePackages: com.zyt.myshop.service.user.consumer.controller
+    basePackages: com.zyt.myshop.service.user.consumer
   ## ApplicationConfig Bean
   application:
     id: myshop-service-user-consumer
@@ -30,6 +30,8 @@ dubbo:
     id: dubbo
     name: dubbo
     serialization: kryo
+    status: server
+    port: 30881
   ## RegistryConfig Bean
   registry:
     id: zookeeper
